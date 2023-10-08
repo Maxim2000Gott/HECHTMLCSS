@@ -1,0 +1,32 @@
+#banner {
+  height: 75vh;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#banner h1 {
+  font-size: 45px;
+  font-family: 'Pixelify Sans', cursive;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+}
+
+#banner h2 {
+  color: orangered  ;
+  text-shadow: 3px 2px 2px orange;
+  font-family: 'Courier Prime', monospace;
+}
+
+#banner .container{
+  background-color: rgba(0,0,0,.5);
+  width: 70%;
+  padding: 20px;
+}
